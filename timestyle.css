@@ -1,0 +1,56 @@
+/* Custom CSS styles */
+.container-text {
+  font-size: 15px;
+   
+}
+.collapse{
+background-color: rgb(0, 0, 0);
+}
+.navbar-brand{ 
+background-color:rgb(184, 244, 252);
+}
+
+
+/* Custom CSS styles */
+
+/* .sidebar {
+height: 100vh;
+width: 300vh;
+background-color: #701212
+} */
+.sid{
+ background:linear-gradient(#19105b, #472067, #7c3375, #FF6196) !important;
+color: black;
+}
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.dash{
+  background-color: rgb(249, 255, 254);
+}
+#img{
+ 
+  width: 100%; /* Make the images fill the width of the sidebar */
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.single-row-box{
+ display: flex; /* Use flexbox to create a single row layout */
+ flex-direction: row;
+align-items: center; /* Center the content vertically */
+justify-content: space-between; /* Add space between the content */
+background-color: #19105b; /* Box background color */
+padding: 2px;
+border: 1px solid #000000; 
+color:#ccc;/* Optional: Add a border */
+font: size 15px;
+flex:1;
+}
+#fi{
+  width:auto;
+}
